@@ -17,18 +17,17 @@ for f in dirlist:
             break
         linelist.append(line)
     file.close
+    newlinelist=[]
+    for l in linelist:
+	    lg=l.decode('gbk')
+	    nu=lg.encode('utf-8')
+	    newlinelist.append(nu)
 
     #把list写入新文件并覆盖
     new=open(f,'w+')
-    length=len(linelist)
-    new.writelines(linelist[0:length-2])
+    length=len(newlinelist)
+    new.writelines(newlinelist[0:length-2])
     new.flush
     new.close
 
-    n=open(f,'w+')
-    s=n.read()
-    s=s.decode('ascii')
-    n.write(s.encode('utf-8'))
-    n.flush
-    n.close
 
