@@ -1,3 +1,3 @@
-# python
-Start from python
-è¯¥ç¨‹åºå®žçŽ°äº†å°†srtæœ€åŽå‡ è¡Œ00:00:00-00:00:00åˆ é™¤çš„åŠŸèƒ½
+ÓÃÀ´½«popsub²úÉúµÄassÎÄ¼þÁí´æÎªºóµÄsrt½øÐÐºó´¦Àí
+1£¬ÐÞ¸Ä±àÂë¸ñÊ½
+2£¬É¾³ý×îºó¼¸ÐÐ00´úÂë
